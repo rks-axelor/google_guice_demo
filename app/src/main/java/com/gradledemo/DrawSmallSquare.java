@@ -6,7 +6,7 @@ public class DrawSmallSquare extends DrawSquare implements DrawShape  {
 	private String color;
 	private Integer edge;
 	@Inject
-	public DrawSmallSquare(@ColorValue String color,@EdgeValue Integer edge) {
+	public DrawSmallSquare(String color, Integer edge) {
 		super();
 		this.color = color;
 		this.edge = edge;
