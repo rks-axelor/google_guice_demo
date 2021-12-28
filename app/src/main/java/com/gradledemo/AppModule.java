@@ -11,6 +11,8 @@ public class AppModule extends AbstractModule {
 		bind(String.class).annotatedWith(ColorValue.class).toInstance("red");
 		bind(Integer.class).annotatedWith(EdgeValue.class).toInstance(30);
 		
+		System.err.println("hello");
+		
 	}
 
 }
